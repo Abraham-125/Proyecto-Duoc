@@ -1,0 +1,68 @@
+
+body{
+    background-color: #f8f9fa !important;
+}
+
+#navbar{
+    padding-top: 20px;
+    background-color: #f8f9fa !important;
+}
+
+.tamaño{
+    width: 50% !important;
+    height: auto;
+    border-radius: 0px;
+    display: grid;
+    margin: 5% 20% 0% 20%;
+    /*border: 1px solid black;*/
+}
+
+form{
+    padding: 25px !important;
+    width: 100% !important;
+}
+
+.btn-primary{
+    background-color: #F8BA21 !important ;
+    border: 0px !important;
+}
+
+#btn-primary{
+    width: 100% !important;
+}
+
+.casilla{
+    border-radius: 0px !important;
+    width: 100% !important;
+    background-color: transparent !important;
+    border: none !important; /* Elimina todos los bordes */
+    border-bottom: 1px solid black !important; /* Agrega solo el borde inferior */
+}
+
+
+/* ESTE ES MAS OSCURO
+.btn-secundary{
+    background-color: #F0B727 !important ; 
+    border: 0px !important;
+}
+
+
+@media only screen and (min-width:360px) and (max-width:500px){
+
+    .tamaño{
+        width: 100% !important;
+        border: 0px;
+
+    }
+
+}
+
+@media screen and (min-width:767) and (max-width:1024px){
+
+    .tamaño{
+        width: 120% !important;
+        border: 0px;
+    }
+
+}
+*/
