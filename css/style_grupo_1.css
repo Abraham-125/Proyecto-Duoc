@@ -1,29 +1,24 @@
-
-body{
-    background-color: #f8f9fa !important;
+.logo-superior{
+    width: 164px;
+    padding-top: 20px;
 }
 
-#navbar{
-    padding-top: 20px;
+.color-fondo{
     background-color: #f8f9fa !important;
 }
 
 .tamaño{
-    width: 50% !important;
+    width: 25% !important;
+    max-width: 500px;
     height: auto;
     border-radius: 0px;
     display: grid;
-    margin: 5% 20% 0% 20%;
-    /*border: 1px solid black;*/
-}
-
-form{
-    padding: 25px !important;
-    width: 100% !important;
+    margin: 12% auto 0 auto;
 }
 
 .btn-primary{
-    background-color: #F8BA21 !important ;
+    background-color:  #F0B727 !important;
+    color: black !important;
     border: 0px !important;
 }
 
@@ -35,34 +30,28 @@ form{
     border-radius: 0px !important;
     width: 100% !important;
     background-color: transparent !important;
-    border: none !important; /* Elimina todos los bordes */
-    border-bottom: 1px solid black !important; /* Agrega solo el borde inferior */
+    border: none !important;
+    border-bottom: 1px solid rgb(179, 102, 9) !important;
 }
 
 
-/* ESTE ES MAS OSCURO
-.btn-secundary{
-    background-color: #F0B727 !important ; 
-    border: 0px !important;
-}
-
-
-@media only screen and (min-width:360px) and (max-width:500px){
-
+@media only screen and (min-width: 0px) and (max-width: 600px){
     .tamaño{
-        width: 100% !important;
-        border: 0px;
-
+        width:  90% !important;
+        margin: 40% auto 0 auto;
     }
-
 }
 
-@media screen and (min-width:767) and (max-width:1024px){
-
+@media only screen and (min-width: 600px) and (max-width: 1023px){
     .tamaño{
-        width: 120% !important;
-        border: 0px;
+        width: 70% !important;
+        margin: 30% auto 0 auto;
     }
-
 }
-*/
+
+@media only screen and (min-width: 1024px) {
+    .tamaño{
+        width: 25% !important;
+        margin: 15% auto 0 auto;
+    }
+}
